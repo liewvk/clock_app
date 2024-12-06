@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "clock_app_frontend": {
+      "type": "assets",
+      "source": [
+        "src/clock_app_frontend/dist"
+      ]
+    },
+    "clock_app_backend": {
+      "type": "custom",
+      "candid": "src/clock_app_backend/clock_app_backend.did",
+      "wasm": "target/wasm32-unknown-unknown/release/clock_app_backend.wasm"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:4943"
+    },
+    "ic": {
+      "providers": [
+        "https://ic0.app"
+      ],
+      "type": "persistent"
+    }
+  }
+}
