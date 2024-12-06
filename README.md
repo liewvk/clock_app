@@ -1,6 +1,8 @@
 # `clock_app`
 
-Welcome to your new `clock_app` project and to the Internet Computer development community. This is a clock that that was created in ICP using Rust and ReactJS.
+Welcome to your new `clock_app` project and to the Internet Computer development community. This is a clock that that was created in ICP using Rust and ReactJS. You may checkout the app that was has been deployed to the mainnet using the link below:
+
+https://jslps-7yaaa-aaaan-qzp4a-cai.icp0.io/
 
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
